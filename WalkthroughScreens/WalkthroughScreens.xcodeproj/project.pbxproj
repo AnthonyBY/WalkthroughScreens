@@ -21,6 +21,7 @@
 		F3D8259E188DE86E0094A367 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D82580188DE86E0094A367 /* UIKit.framework */; };
 		F3D825A6188DE86E0094A367 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3D825A4188DE86E0094A367 /* InfoPlist.strings */; };
 		F3D825A8188DE86E0094A367 /* WalkthroughScreensTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D825A7188DE86E0094A367 /* WalkthroughScreensTests.m */; };
+		F3D825B2188DE8940094A367 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F3D825B1188DE8940094A367 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F3D825A3188DE86E0094A367 /* WalkthroughScreensTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WalkthroughScreensTests-Info.plist"; sourceTree = "<group>"; };
 		F3D825A5188DE86E0094A367 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3D825A7188DE86E0094A367 /* WalkthroughScreensTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkthroughScreensTests.m; sourceTree = "<group>"; };
+		F3D825B1188DE8940094A367 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		F3D82570188DE86E0094A367 = {
 			isa = PBXGroup;
 			children = (
+				F3D825B1188DE8940094A367 /* README.md */,
 				F3D82582188DE86E0094A367 /* WalkthroughScreens */,
 				F3D825A1188DE86E0094A367 /* WalkthroughScreensTests */,
 				F3D8257B188DE86E0094A367 /* Frameworks */,
@@ -230,6 +233,7 @@
 			files = (
 				F3D82595188DE86E0094A367 /* Images.xcassets in Resources */,
 				F3D82587188DE86E0094A367 /* InfoPlist.strings in Resources */,
+				F3D825B2188DE8940094A367 /* README.md in Resources */,
 				F3D82590188DE86E0094A367 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
