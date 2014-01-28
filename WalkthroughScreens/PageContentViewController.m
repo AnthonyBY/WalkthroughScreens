@@ -9,8 +9,7 @@
 #import "PageContentViewController.h"
 
 @interface PageContentViewController ()
-    @property (weak, nonatomic) IBOutlet UIImageView *backgroundImageView;
-    @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+
 @end
 
 @implementation PageContentViewController

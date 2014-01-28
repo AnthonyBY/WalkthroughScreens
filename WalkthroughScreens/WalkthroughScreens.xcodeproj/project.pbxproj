@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		F3A207BD18980901007EFE39 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A207BC18980901007EFE39 /* PageContentViewController.m */; };
 		F3A207C018980999007EFE39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A207BF18980999007EFE39 /* ViewController.m */; };
+		F3A207C818981623007EFE39 /* page1.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A207C418981623007EFE39 /* page1.png */; };
+		F3A207C918981623007EFE39 /* page2.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A207C518981623007EFE39 /* page2.png */; };
+		F3A207CA18981623007EFE39 /* page3.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A207C618981623007EFE39 /* page3.png */; };
+		F3A207CB18981623007EFE39 /* page4.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A207C718981623007EFE39 /* page4.png */; };
 		F3D8257D188DE86E0094A367 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D8257C188DE86E0094A367 /* Foundation.framework */; };
 		F3D8257F188DE86E0094A367 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D8257E188DE86E0094A367 /* CoreGraphics.framework */; };
 		F3D82581188DE86E0094A367 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D82580188DE86E0094A367 /* UIKit.framework */; };
@@ -40,6 +44,10 @@
 		F3A207BC18980901007EFE39 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PageContentViewController.m; path = ../PageContentViewController.m; sourceTree = "<group>"; };
 		F3A207BE18980999007EFE39 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F3A207BF18980999007EFE39 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3A207C418981623007EFE39 /* page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page1.png; sourceTree = "<group>"; };
+		F3A207C518981623007EFE39 /* page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page2.png; sourceTree = "<group>"; };
+		F3A207C618981623007EFE39 /* page3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page3.png; sourceTree = "<group>"; };
+		F3A207C718981623007EFE39 /* page4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page4.png; sourceTree = "<group>"; };
 		F3D82579188DE86E0094A367 /* WalkthroughScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkthroughScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D8257C188DE86E0094A367 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3D8257E188DE86E0094A367 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,6 +140,10 @@
 		F3D82583188DE86E0094A367 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F3A207C418981623007EFE39 /* page1.png */,
+				F3A207C518981623007EFE39 /* page2.png */,
+				F3A207C618981623007EFE39 /* page3.png */,
+				F3A207C718981623007EFE39 /* page4.png */,
 				F3D8258B188DE86E0094A367 /* AppDelegate.h */,
 				F3D8258C188DE86E0094A367 /* AppDelegate.m */,
 				F3D82584188DE86E0094A367 /* WalkthroughScreens-Info.plist */,
@@ -237,9 +249,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3D82595188DE86E0094A367 /* Images.xcassets in Resources */,
+				F3A207C818981623007EFE39 /* page1.png in Resources */,
 				F3D82587188DE86E0094A367 /* InfoPlist.strings in Resources */,
 				F3D825B2188DE8940094A367 /* README.md in Resources */,
 				F3D82590188DE86E0094A367 /* Main.storyboard in Resources */,
+				F3A207CB18981623007EFE39 /* page4.png in Resources */,
+				F3A207C918981623007EFE39 /* page2.png in Resources */,
+				F3A207CA18981623007EFE39 /* page3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
